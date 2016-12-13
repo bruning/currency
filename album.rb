@@ -13,6 +13,12 @@ class Album
   end
 end
 
-xyz = Album.new('name', 19.99, 50)
+xyz = Album.new('name1', 19.99, 50)
+abc = Album.new('name2', 9.99, 30)
+
 puts xyz.price
 puts xyz.inventory
+puts abc.price
+puts abc.inventory
+
+puts "#{xyz}#{abc}"
